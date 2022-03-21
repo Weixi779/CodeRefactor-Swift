@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22DCD6C27D0BBB1008B9B98 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD6B27D0BBB1008B9B98 /* main.swift */; };
+		A22DCD7327D0BBC0008B9B98 /* 导论.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD7227D0BBC0008B9B98 /* 导论.swift */; };
+		A22DCD7727D26C00008B9B98 /* Extract Method 提炼函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD7627D26C00008B9B98 /* Extract Method 提炼函数.swift */; };
+		A22DCD7B27D35E5B008B9B98 /* Inline Method 内联函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD7A27D35E5B008B9B98 /* Inline Method 内联函数.swift */; };
+		A22DCD7D27D35FE3008B9B98 /* Inline Temp 内联临时变量.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD7C27D35FE3008B9B98 /* Inline Temp 内联临时变量.swift */; };
+		A22DCD7F27D597E6008B9B98 /* Replace Temp with Query 以查询代替临时变量.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD7E27D597E6008B9B98 /* Replace Temp with Query 以查询代替临时变量.swift */; };
+		A22DCD8127D59CF1008B9B98 /* Introduce Explaining Variable 引入解释性变量.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD8027D59CF1008B9B98 /* Introduce Explaining Variable 引入解释性变量.swift */; };
+		A22DCD8427D5AB52008B9B98 /* Split Temporary Variable 分解临时变量.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD8327D5AB52008B9B98 /* Split Temporary Variable 分解临时变量.swift */; };
+		A22DCD8627D5B4E0008B9B98 /* Remove Assignments to Paramenters 移除对参数赋值.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD8527D5B4E0008B9B98 /* Remove Assignments to Paramenters 移除对参数赋值.swift */; };
+		A22DCD8827D5B69A008B9B98 /* Replace Method with Method Object 以函数对象代替函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD8727D5B69A008B9B98 /* Replace Method with Method Object 以函数对象代替函数.swift */; };
+		A22DCD8A27D5D484008B9B98 /* Substitute Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DCD8927D5D484008B9B98 /* Substitute Algorithm.swift */; };
+		A2A978B427E21FB700EFC9E3 /* Remove Middle Man 移除中间人.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A978B327E21FB700EFC9E3 /* Remove Middle Man 移除中间人.swift */; };
+		A2A978B627E21FF200EFC9E3 /* Introduce Foreign Method 引入外加函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A978B527E21FF200EFC9E3 /* Introduce Foreign Method 引入外加函数.swift */; };
+		A2A978B827E2228D00EFC9E3 /* Intriduce Local Extension 引入本地扩展.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A978B727E2228D00EFC9E3 /* Intriduce Local Extension 引入本地扩展.swift */; };
+		A2A978BA27E226D000EFC9E3 /* Self Encapsulate Field 自封装字段.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A978B927E226D000EFC9E3 /* Self Encapsulate Field 自封装字段.swift */; };
+		A2A978BD27E22D1E00EFC9E3 /* Replace Date Value With Object 以对象取代数值.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A978BC27E22D1E00EFC9E3 /* Replace Date Value With Object 以对象取代数值.swift */; };
+		A2A978BF27E2CAE800EFC9E3 /* Change Value to Reference 将值对象改为引用对象.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A978BE27E2CAE800EFC9E3 /* Change Value to Reference 将值对象改为引用对象.swift */; };
+		A2BA09BF27D723E70000BC0F /* Move Method 搬移函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA09BE27D723E70000BC0F /* Move Method 搬移函数.swift */; };
+		A2BA09C227D991ED0000BC0F /* Move Field 搬移字段.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA09C127D991ED0000BC0F /* Move Field 搬移字段.swift */; };
+		A2BA09C827DA5BAD0000BC0F /* Extract Class 提取类.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA09C727DA5BAD0000BC0F /* Extract Class 提取类.swift */; };
+		A2BA09CA27DA60480000BC0F /* Inline Class 内联类.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA09C927DA60480000BC0F /* Inline Class 内联类.swift */; };
+		A2BA09CC27DA60F00000BC0F /* Hide Delegate 隐藏委托关系.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA09CB27DA60F00000BC0F /* Hide Delegate 隐藏委托关系.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A22DCD6627D0BBB1008B9B98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A22DCD6827D0BBB1008B9B98 /* Code Refactiring - swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Code Refactiring - swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22DCD6B27D0BBB1008B9B98 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A22DCD7227D0BBC0008B9B98 /* 导论.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "导论.swift"; sourceTree = "<group>"; };
+		A22DCD7627D26C00008B9B98 /* Extract Method 提炼函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extract Method 提炼函数.swift"; sourceTree = "<group>"; };
+		A22DCD7A27D35E5B008B9B98 /* Inline Method 内联函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inline Method 内联函数.swift"; sourceTree = "<group>"; };
+		A22DCD7C27D35FE3008B9B98 /* Inline Temp 内联临时变量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inline Temp 内联临时变量.swift"; sourceTree = "<group>"; };
+		A22DCD7E27D597E6008B9B98 /* Replace Temp with Query 以查询代替临时变量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Replace Temp with Query 以查询代替临时变量.swift"; sourceTree = "<group>"; };
+		A22DCD8027D59CF1008B9B98 /* Introduce Explaining Variable 引入解释性变量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Introduce Explaining Variable 引入解释性变量.swift"; sourceTree = "<group>"; };
+		A22DCD8327D5AB52008B9B98 /* Split Temporary Variable 分解临时变量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Split Temporary Variable 分解临时变量.swift"; sourceTree = "<group>"; };
+		A22DCD8527D5B4E0008B9B98 /* Remove Assignments to Paramenters 移除对参数赋值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Assignments to Paramenters 移除对参数赋值.swift"; sourceTree = "<group>"; };
+		A22DCD8727D5B69A008B9B98 /* Replace Method with Method Object 以函数对象代替函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Replace Method with Method Object 以函数对象代替函数.swift"; sourceTree = "<group>"; };
+		A22DCD8927D5D484008B9B98 /* Substitute Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Substitute Algorithm.swift"; sourceTree = "<group>"; };
+		A2A978B327E21FB700EFC9E3 /* Remove Middle Man 移除中间人.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Middle Man 移除中间人.swift"; sourceTree = "<group>"; };
+		A2A978B527E21FF200EFC9E3 /* Introduce Foreign Method 引入外加函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Introduce Foreign Method 引入外加函数.swift"; sourceTree = "<group>"; };
+		A2A978B727E2228D00EFC9E3 /* Intriduce Local Extension 引入本地扩展.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intriduce Local Extension 引入本地扩展.swift"; sourceTree = "<group>"; };
+		A2A978B927E226D000EFC9E3 /* Self Encapsulate Field 自封装字段.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Self Encapsulate Field 自封装字段.swift"; sourceTree = "<group>"; };
+		A2A978BC27E22D1E00EFC9E3 /* Replace Date Value With Object 以对象取代数值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Replace Date Value With Object 以对象取代数值.swift"; sourceTree = "<group>"; };
+		A2A978BE27E2CAE800EFC9E3 /* Change Value to Reference 将值对象改为引用对象.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Change Value to Reference 将值对象改为引用对象.swift"; sourceTree = "<group>"; };
+		A2BA09BE27D723E70000BC0F /* Move Method 搬移函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Method 搬移函数.swift"; sourceTree = "<group>"; };
+		A2BA09C127D991ED0000BC0F /* Move Field 搬移字段.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Field 搬移字段.swift"; sourceTree = "<group>"; };
+		A2BA09C727DA5BAD0000BC0F /* Extract Class 提取类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extract Class 提取类.swift"; sourceTree = "<group>"; };
+		A2BA09C927DA60480000BC0F /* Inline Class 内联类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inline Class 内联类.swift"; sourceTree = "<group>"; };
+		A2BA09CB27DA60F00000BC0F /* Hide Delegate 隐藏委托关系.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hide Delegate 隐藏委托关系.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22DCD6527D0BBB1008B9B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22DCD5F27D0BBB1008B9B98 = {
+			isa = PBXGroup;
+			children = (
+				A22DCD6A27D0BBB1008B9B98 /* Code Refactiring - swift */,
+				A22DCD6927D0BBB1008B9B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22DCD6927D0BBB1008B9B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22DCD6827D0BBB1008B9B98 /* Code Refactiring - swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22DCD6A27D0BBB1008B9B98 /* Code Refactiring - swift */ = {
+			isa = PBXGroup;
+			children = (
+				A22DCD6B27D0BBB1008B9B98 /* main.swift */,
+				A22DCD7227D0BBC0008B9B98 /* 导论.swift */,
+				A22DCD8227D5A9BB008B9B98 /* 重新组织函数 */,
+				A2BA09C027D723F20000BC0F /* 在对象之间搬移特性 */,
+				A2A978BB27E226DD00EFC9E3 /* 重新组织数据 */,
+			);
+			path = "Code Refactiring - swift";
+			sourceTree = "<group>";
+		};
+		A22DCD8227D5A9BB008B9B98 /* 重新组织函数 */ = {
+			isa = PBXGroup;
+			children = (
+				A22DCD7627D26C00008B9B98 /* Extract Method 提炼函数.swift */,
+				A22DCD7A27D35E5B008B9B98 /* Inline Method 内联函数.swift */,
+				A22DCD7C27D35FE3008B9B98 /* Inline Temp 内联临时变量.swift */,
+				A22DCD7E27D597E6008B9B98 /* Replace Temp with Query 以查询代替临时变量.swift */,
+				A22DCD8027D59CF1008B9B98 /* Introduce Explaining Variable 引入解释性变量.swift */,
+				A22DCD8327D5AB52008B9B98 /* Split Temporary Variable 分解临时变量.swift */,
+				A22DCD8527D5B4E0008B9B98 /* Remove Assignments to Paramenters 移除对参数赋值.swift */,
+				A22DCD8727D5B69A008B9B98 /* Replace Method with Method Object 以函数对象代替函数.swift */,
+				A22DCD8927D5D484008B9B98 /* Substitute Algorithm.swift */,
+			);
+			path = "重新组织函数";
+			sourceTree = "<group>";
+		};
+		A2A978BB27E226DD00EFC9E3 /* 重新组织数据 */ = {
+			isa = PBXGroup;
+			children = (
+				A2A978B927E226D000EFC9E3 /* Self Encapsulate Field 自封装字段.swift */,
+				A2A978BC27E22D1E00EFC9E3 /* Replace Date Value With Object 以对象取代数值.swift */,
+				A2A978BE27E2CAE800EFC9E3 /* Change Value to Reference 将值对象改为引用对象.swift */,
+			);
+			path = "重新组织数据";
+			sourceTree = "<group>";
+		};
+		A2BA09C027D723F20000BC0F /* 在对象之间搬移特性 */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA09BE27D723E70000BC0F /* Move Method 搬移函数.swift */,
+				A2BA09C127D991ED0000BC0F /* Move Field 搬移字段.swift */,
+				A2BA09C727DA5BAD0000BC0F /* Extract Class 提取类.swift */,
+				A2BA09C927DA60480000BC0F /* Inline Class 内联类.swift */,
+				A2BA09CB27DA60F00000BC0F /* Hide Delegate 隐藏委托关系.swift */,
+				A2A978B327E21FB700EFC9E3 /* Remove Middle Man 移除中间人.swift */,
+				A2A978B527E21FF200EFC9E3 /* Introduce Foreign Method 引入外加函数.swift */,
+				A2A978B727E2228D00EFC9E3 /* Intriduce Local Extension 引入本地扩展.swift */,
+			);
+			path = "在对象之间搬移特性";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22DCD6727D0BBB1008B9B98 /* Code Refactiring - swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22DCD6F27D0BBB1008B9B98 /* Build configuration list for PBXNativeTarget "Code Refactiring - swift" */;
+			buildPhases = (
+				A22DCD6427D0BBB1008B9B98 /* Sources */,
+				A22DCD6527D0BBB1008B9B98 /* Frameworks */,
+				A22DCD6627D0BBB1008B9B98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Code Refactiring - swift";
+			productName = "Code Refactiring - swift";
+			productReference = A22DCD6827D0BBB1008B9B98 /* Code Refactiring - swift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22DCD6027D0BBB1008B9B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A22DCD6727D0BBB1008B9B98 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A22DCD6327D0BBB1008B9B98 /* Build configuration list for PBXProject "Code Refactiring - swift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A22DCD5F27D0BBB1008B9B98;
+			productRefGroup = A22DCD6927D0BBB1008B9B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22DCD6727D0BBB1008B9B98 /* Code Refactiring - swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22DCD6427D0BBB1008B9B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BA09BF27D723E70000BC0F /* Move Method 搬移函数.swift in Sources */,
+				A2A978B827E2228D00EFC9E3 /* Intriduce Local Extension 引入本地扩展.swift in Sources */,
+				A2BA09C827DA5BAD0000BC0F /* Extract Class 提取类.swift in Sources */,
+				A22DCD7727D26C00008B9B98 /* Extract Method 提炼函数.swift in Sources */,
+				A2A978B627E21FF200EFC9E3 /* Introduce Foreign Method 引入外加函数.swift in Sources */,
+				A2BA09CC27DA60F00000BC0F /* Hide Delegate 隐藏委托关系.swift in Sources */,
+				A22DCD7D27D35FE3008B9B98 /* Inline Temp 内联临时变量.swift in Sources */,
+				A22DCD7327D0BBC0008B9B98 /* 导论.swift in Sources */,
+				A22DCD8827D5B69A008B9B98 /* Replace Method with Method Object 以函数对象代替函数.swift in Sources */,
+				A2A978BD27E22D1E00EFC9E3 /* Replace Date Value With Object 以对象取代数值.swift in Sources */,
+				A22DCD7B27D35E5B008B9B98 /* Inline Method 内联函数.swift in Sources */,
+				A2BA09C227D991ED0000BC0F /* Move Field 搬移字段.swift in Sources */,
+				A2A978B427E21FB700EFC9E3 /* Remove Middle Man 移除中间人.swift in Sources */,
+				A22DCD7F27D597E6008B9B98 /* Replace Temp with Query 以查询代替临时变量.swift in Sources */,
+				A22DCD8127D59CF1008B9B98 /* Introduce Explaining Variable 引入解释性变量.swift in Sources */,
+				A22DCD8627D5B4E0008B9B98 /* Remove Assignments to Paramenters 移除对参数赋值.swift in Sources */,
+				A2BA09CA27DA60480000BC0F /* Inline Class 内联类.swift in Sources */,
+				A2A978BA27E226D000EFC9E3 /* Self Encapsulate Field 自封装字段.swift in Sources */,
+				A22DCD8427D5AB52008B9B98 /* Split Temporary Variable 分解临时变量.swift in Sources */,
+				A22DCD6C27D0BBB1008B9B98 /* main.swift in Sources */,
+				A2A978BF27E2CAE800EFC9E3 /* Change Value to Reference 将值对象改为引用对象.swift in Sources */,
+				A22DCD8A27D5D484008B9B98 /* Substitute Algorithm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A22DCD6D27D0BBB1008B9B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A22DCD6E27D0BBB1008B9B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A22DCD7027D0BBB1008B9B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A22DCD7127D0BBB1008B9B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22DCD6327D0BBB1008B9B98 /* Build configuration list for PBXProject "Code Refactiring - swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22DCD6D27D0BBB1008B9B98 /* Debug */,
+				A22DCD6E27D0BBB1008B9B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22DCD6F27D0BBB1008B9B98 /* Build configuration list for PBXNativeTarget "Code Refactiring - swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22DCD7027D0BBB1008B9B98 /* Debug */,
+				A22DCD7127D0BBB1008B9B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22DCD6027D0BBB1008B9B98 /* Project object */;
+}
